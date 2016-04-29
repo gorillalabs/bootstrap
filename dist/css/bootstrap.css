@@ -329,8 +329,8 @@ body {
   font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #2c2c2c;
-  background-color: #fff;
+  color: #f7f7f9;
+  background-color: #0d0d0d;
 }
 
 [tabindex="-1"]:focus {
@@ -687,7 +687,7 @@ mark,
   height: auto;
   padding: .25rem;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #0d0d0d;
   border: 1px solid #ddd;
   border-radius: .25rem;
   -webkit-transition: all .2s ease-in-out;
@@ -2138,7 +2138,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #fff;
+  background-color: #0d0d0d;
 }
 
 .table-sm th,
@@ -3285,7 +3285,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 1rem;
-  color: #2c2c2c;
+  color: #f7f7f9;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3971,7 +3971,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-item.open .nav-link:focus,
 .nav-tabs .nav-item.open .nav-link:hover {
   color: #323232;
-  background-color: #fff;
+  background-color: #0d0d0d;
   border-color: #ddd #ddd transparent;
 }
 
@@ -4030,7 +4030,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  padding: .5rem 1rem;
+  padding: 0 0;
 }
 
 .navbar::after {
@@ -4113,8 +4113,8 @@ input[type="button"].btn-block {
   width: 1px;
   padding-top: .425rem;
   padding-bottom: .425rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 0;
+  margin-left: 0;
   overflow: hidden;
 }
 
